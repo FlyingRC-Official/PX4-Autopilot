@@ -1,0 +1,13 @@
+{
+    "board_id": 1210,
+    "magic": "PX4FWv1",
+    "description": "Firmware for the FlyingRC H7D Pro Dual ICM board",
+    "image": "",
+    "build_time": 0,
+    "summary": "FlyingRC H7D Pro Dual ICM",
+    "version": "0.1",
+    "image_size": 0,
+    "image_maxsize": 1835008,
+    "git_identity": "",
+    "board_revision": 0
+}
