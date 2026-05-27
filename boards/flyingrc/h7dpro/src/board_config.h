@@ -112,8 +112,6 @@
 
 /* Spare GPIO */
 #define GPIO_PA4                       	/* PA4 */  (GPIO_INPUT|GPIO_PULLUP|GPIO_PORTA|GPIO_PIN4)
-#define GPIO_PC0                       	/* PC0 */  (GPIO_INPUT|GPIO_PULLUP|GPIO_PORTC|GPIO_PIN0)
-#define GPIO_PC1                       	/* PC1 */  (GPIO_INPUT|GPIO_PULLUP|GPIO_PORTC|GPIO_PIN1)
 /* Tone alarm output */
 
 #define TONE_ALARM_TIMER        2
@@ -163,8 +161,6 @@
 #define PX4_GPIO_INIT_LIST { \
 		PX4_ADC_GPIO, \
 		GPIO_TONE_ALARM_IDLE, \
-		GPIO_PC0, \
-		GPIO_PC1, \
 	}
 
 #define BOARD_ENABLE_CONSOLE_BUFFER
