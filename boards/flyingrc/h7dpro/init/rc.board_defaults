@@ -11,6 +11,8 @@ param set-default BAT1_V_EMPTY 3.2
 param set-default SYS_HAS_MAG 0
 param set-default PWM_MAIN_TIM0 -4
 param set-default RC_INPUT_PROTO -1
+param set-default MSP_OSD_CONFIG 103
+param set-default SER_TEL3_BAUD 115200
 
 param set-default IMU_GYRO_RATEMAX 2000
 param set-default SYS_AUTOSTART 4001
