@@ -9,14 +9,14 @@ board_adc start
 icm42688p -s -b 1 -R 10 start
 icm42688p -s -b 4 -R 8 start
 
-# Barometer is on I2C2. Try SPA06-003 first, then SPL06-compatible ID.
-if ! spa06 -X -b 2 -q start
+# Barometer is on internal I2C2. Try SPA06-003 first, then SPL06-compatible ID.
+if ! spa06 -I -b 2 -q start
 then
-	if ! spa06 -X -b 2 -a 0x77 -q start
+	if ! spa06 -I -b 2 -a 0x77 -q start
 	then
-		if ! spl06 -X -b 2 -q start
+		if ! spl06 -I -b 2 -q start
 		then
-			spl06 -X -b 2 -a 0x77 start
+			spl06 -I -b 2 -a 0x77 start
 		fi
 	fi
 fi
